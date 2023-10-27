@@ -1,11 +1,30 @@
 *{
-    font-family: 'Roboto', sans-serif !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     height: 100dvh;
-    background: #313131;
-    color: white !important;
+    overflow: hidden;
+}
+.App{
+    display: grid;
+    width: 100dvw;
+    height: 100dvh;
+    grid-template: 20px 1fr 20px / 1fr;
+}
+header{
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: aqua;
+    font-size: 10px;
 }
