@@ -1,9 +1,16 @@
+import Main from './Body'
+import Footer from './Footer'
+import Header from './Header'
 import './index.css'
 
 function App() {
   return (
     <>
-    <h1></h1>
+    <div className="App">
+    <Header />
+    <Main />
+    <Footer />
+    </div>
     </>
   )
 }
