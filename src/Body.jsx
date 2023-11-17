@@ -7,16 +7,6 @@ export default function Main(){
         id: 1,
         checked: false,
         item:"item1"
-    },
-    {
-        id: 2,
-        checked: false,
-        item:"item2"
-    },
-    {
-        id: 3,
-        checked: false,
-        item:"item3"
     }]);
     return(
         <>
